@@ -1,0 +1,9 @@
+[template]
+src        = "nginx.conf.tmpl"
+dest       = "/etc/nginx/sites-enabled/experiment-nginx.conf"
+owner      = "root"
+group      = "root"
+mode       = "0644"
+keys       = ["/uswitch/experiment/port/current"]
+check_cmd  = "/usr/sbin/nginx -t -c /etc/nginx/nginx.conf"
+reload_cmd = "/usr/sbin/service nginx reload"

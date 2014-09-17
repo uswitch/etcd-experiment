@@ -1,0 +1,6 @@
+[template]
+src          = "restart-service.sh.tmpl"
+dest         = "/tmp/restart-service.sh"
+mode         = "0700"
+keys         = ["/uswitch/experiment/pid/previous"]
+reload_cmd   = "/bin/sh /tmp/restart-service.sh"

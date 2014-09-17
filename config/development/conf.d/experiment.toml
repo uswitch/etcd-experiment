@@ -1,0 +1,4 @@
+[template]
+src  = "nginx.conf.tmpl"
+dest = "output/nginx.conf"
+keys = ["/uswitch/experiment/port/current"]
