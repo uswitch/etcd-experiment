@@ -13,7 +13,7 @@ GEM
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
     colored (1.2)
-    excon (0.39.5)
+    excon (0.76.0)
     fog (1.23.0)
       fog-brightbox
       fog-core (~> 1.23)
